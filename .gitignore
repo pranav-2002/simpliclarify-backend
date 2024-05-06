@@ -1,0 +1,12 @@
+node_modules
+.vscode
+aws_command.bat
+mentorOnboarding.xlsx
+start-windows-server.bat
+access.log
+start-server.sh
+start-server-prod.sh
+simp.pem
+prod.pem
+dt_data.csv
+dt_data.numbers

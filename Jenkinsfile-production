@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+    stages {
+        stage('Remove old Docker containers and images') {
+            steps {
+                sh 'docker rm -f prod-user'
+                sh 'docker system prune -f'
+            }
+        }
+        stage('Build Docker Image') {
+            steps {
+                sh 'docker build -t simpliclarify/prod-user .'
+            }
+        }
+        stage('Deploy Docker Image') {
+            steps {
+                sh 'docker run --name prod-user -p 8081:8080 --env-file /home/jenkins/.env-staging-user --restart always -v /home/ubuntu/.aws/credentials:/home/node/.aws/credentials -v /home/ubuntu/logs/access.log:/home/node/app/access.log -d simpliclarify/prod-user'
+            }
+        }
+        stage('Push docker image to AWS registry') {
+            steps {
+                sh 'docker tag simpliclarify/prod-user 101602609699.dkr.ecr.ap-south-1.amazonaws.com/prod-user'
+                sh 'aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 101602609699.dkr.ecr.ap-south-1.amazonaws.com'
+                sh 'docker push 101602609699.dkr.ecr.ap-south-1.amazonaws.com/prod-user'
+            }
+        }
+        stage('Stop docker container') {
+            steps {
+                sh 'docker rm -f prod-user'
+            }
+        }
+        stage('Pull latest docker image in production server') {
+            steps {
+                sh 'ssh -i /home/ubuntu/prod.pem ubuntu@3.110.82.184 "aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 101602609699.dkr.ecr.ap-south-1.amazonaws.com"'
+                sh 'ssh -i /home/ubuntu/prod.pem ubuntu@3.110.82.184 "docker pull 101602609699.dkr.ecr.ap-south-1.amazonaws.com/prod-user"'
+                sh 'ssh -i /home/ubuntu/prod.pem ubuntu@3.110.82.184 "docker rm -f prod-user"'
+                sh 'ssh -i /home/ubuntu/prod.pem ubuntu@3.110.82.184 "docker run --name prod-user -p 8080:8080 --env-file /home/ubuntu/.env-prod-user --restart always -v /home/ubuntu/.aws/credentials:/home/node/.aws/credentials -v /home/ubuntu/logs/prod-user.log:/home/node/app/access.log -d 101602609699.dkr.ecr.ap-south-1.amazonaws.com/prod-user"'
+                sh 'ssh -i /home/ubuntu/prod.pem ubuntu@3.110.82.184 "docker system prune -f"'
+            }
+        }
+    }
+}
