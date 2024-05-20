@@ -237,21 +237,21 @@ async function bookSlot(body) {
             currency: 'INR',
             receipt: userId,
         };
-        // const instance = await razorpayInstance();
-        // const razorpayOrder = await instance.orders.create(options);
-        // if (!razorpayOrder) {
-        //     throw new CustomError({
-        //         statusCode: 401,
-        //         message: 'Booking failed',
-        //     });
-        // }
+        const instance = await razorpayInstance();
+        const razorpayOrder = await instance.orders.create(options);
+        if (!razorpayOrder) {
+            throw new CustomError({
+                statusCode: 401,
+                message: 'Booking failed',
+            });
+        }
         const obj = {
             userId,
             mentorId,
             totalAmount: findMentor[type].mentorPrice,
             meetingTimings,
             meetingDate,
-            razorpayOrderId: 'dummy',
+            razorpayOrderId: razorpayOrder.id,
             personaType,
             mentorCut: findMentor[type].mentorCut,
         };
