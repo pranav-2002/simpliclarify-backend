@@ -1,5 +1,5 @@
 export default function (endPoint, userName) {
-  return `<!DOCTYPE>
+    return `<!DOCTYPE>
     <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -154,7 +154,7 @@ export default function (endPoint, userName) {
                                         <div class="col_cont" style="width:100% !important;">
                                             <div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:30px; padding-right: 30px; padding-left: 30px;">
                                                 <div class="img-container right fixedwidth" align="right" style="padding-right: 0px;padding-left: 0px;">
-                                                    <div style="font-size:1px;line-height:15px">&nbsp;</div><a href="www.simpliclarify.com" target="_blank" style="outline:none" tabindex="-1"><img class="right fixedwidth" align="right" border="0" src="https://firebasestorage.googleapis.com/v0/b/simpliclarify-user-portal.appspot.com/o/SC-Portal%2Flogo.png?alt=media&amp;token=3b945e02-c2ec-4580-8b74-b9766dcc1e1c" alt="SimpliClariFy" title="SimpliClariFy" style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; width: 100%; max-width: 132px; float: none; display: block;" width="132"></a>
+                                                    <div style="font-size:1px;line-height:15px">&nbsp;</div><a href="https://probuddy.in" target="_blank" style="outline:none" tabindex="-1"><img class="right fixedwidth" align="right" border="0" src="https://firebasestorage.googleapis.com/v0/b/simpliclarify-user-portal.appspot.com/o/SC-Portal%2Flogo.png?alt=media&amp;token=3b945e02-c2ec-4580-8b74-b9766dcc1e1c" alt="Probuddy" title="Probuddy" style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; width: 100%; max-width: 132px; float: none; display: block;" width="132"></a>
                                                     <div style="font-size:1px;line-height:25px">&nbsp;</div>
                                                 </div>
                                                 <table class="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" role="presentation" valign="top">
@@ -185,7 +185,7 @@ export default function (endPoint, userName) {
                                                 </table>
                                                 <div style="color:#4461ab;font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Geneva, Verdana, sans-serif;line-height:1.5;padding-top:25px;padding-right:0px;padding-bottom:10px;padding-left:0px;">
                                                     <div class="txtTinyMce-wrapper" style="line-height: 1.5; font-size: 12px; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Geneva, Verdana, sans-serif; color: #4461ab; mso-line-height-alt: 18px;">
-                                                        <p style="margin: 0; line-height: 1.5; word-break: break-word; text-align: left; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Geneva, Verdana, sans-serif; font-size: 20px; mso-line-height-alt: 30px; margin-top: 0; margin-bottom: 0;"><span style="color: #4461ab; font-size: 20px;"><span style>Welcome to SimpliClariFy, ${userName}!</span></span></p>
+                                                        <p style="margin: 0; line-height: 1.5; word-break: break-word; text-align: left; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Geneva, Verdana, sans-serif; font-size: 20px; mso-line-height-alt: 30px; margin-top: 0; margin-bottom: 0;"><span style="color: #4461ab; font-size: 20px;"><span style>Welcome to Probuddy, ${userName}!</span></span></p>
                                                         <p style="margin: 0; line-height: 1.5; word-break: break-word; text-align: left; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Geneva, Verdana, sans-serif; font-size: 17px; mso-line-height-alt: 26px; mso-ansi-font-size: 18px; margin-top: 0; margin-bottom: 0;"><span style="color: #4461ab; font-size: 17px; mso-ansi-font-size: 18px;"><span style>Please verify your email to book 1-1 slots </span></span></p>
                                                         <p style="margin: 0; line-height: 1.5; word-break: break-word; text-align: left; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Geneva, Verdana, sans-serif; font-size: 17px; mso-line-height-alt: 26px; mso-ansi-font-size: 18px; margin-top: 0; margin-bottom: 0;"><span style="font-size: 17px; mso-ansi-font-size: 18px;"><span style="color: #4461ab;"><span style>with the mentors.</span></span></span></p>
                                                     </div>
@@ -211,7 +211,7 @@ export default function (endPoint, userName) {
                                                 </div>
                                                 <div style="color:#393d47;font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Geneva, Verdana, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:15px;padding-left:10px;">
                                                     <div class="txtTinyMce-wrapper" style="line-height: 1.2; font-size: 12px; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Geneva, Verdana, sans-serif; color: #393d47; mso-line-height-alt: 14px;">
-                                                        <p style="margin: 0; font-size: 14px; line-height: 1.2; word-break: break-word; text-align: center; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Geneva, Verdana, sans-serif; mso-line-height-alt: 17px; margin-top: 0; margin-bottom: 0;"><span style="color: #4461ab;"><span style="font-size: 10px;">If you didn't register with this account, write to us at hello@simpliclarify.com</span></span></p>
+                                                        <p style="margin: 0; font-size: 14px; line-height: 1.2; word-break: break-word; text-align: center; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Geneva, Verdana, sans-serif; mso-line-height-alt: 17px; margin-top: 0; margin-bottom: 0;"><span style="color: #4461ab;"><span style="font-size: 10px;">If you didn't register with this account, write to us at probuddy.tech@gmail.com</span></span></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -228,7 +228,7 @@ export default function (endPoint, userName) {
                                             <div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">
                                                 <div style="color:#4461ab;font-family:Lucida Sans Unicode, Lucida Grande, Lucida Sans, Geneva, Verdana, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;">
                                                     <div class="txtTinyMce-wrapper" style="font-size: 12px; line-height: 1.2; color: #4461ab; font-family: Lucida Sans Unicode, Lucida Grande, Lucida Sans, Geneva, Verdana, sans-serif; mso-line-height-alt: 14px;">
-                                                        <p style="margin: 0; font-size: 15px; text-align: center; line-height: 1.2; word-break: break-word; mso-line-height-alt: 18px; margin-top: 0; margin-bottom: 0;"><span style="font-size: 15px;"><a href="http://www.simpliclarify.com" target="_blank" style="text-decoration: underline; color: #4461ab;" rel="noopener">www.simpliclarify.com</a></span></p>
+                                                        <p style="margin: 0; font-size: 15px; text-align: center; line-height: 1.2; word-break: break-word; mso-line-height-alt: 18px; margin-top: 0; margin-bottom: 0;"><span style="font-size: 15px;"><a href="https://probuddy.in" target="_blank" style="text-decoration: underline; color: #4461ab;" rel="noopener">https://probuddy.in</a></span></p>
                                                     </div>
                                                 </div>
                                                 <table class="social_icons" cellpadding="0" cellspacing="0" width="100%" role="presentation" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top">
@@ -258,5 +258,5 @@ export default function (endPoint, userName) {
             </tbody>
         </table>
     </body>
-    </html>`
+    </html>`;
 }

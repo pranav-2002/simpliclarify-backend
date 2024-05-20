@@ -166,13 +166,13 @@ async function signUp(body) {
             });
         }
         await verifyReferralCode(referralCode, newUser);
-        const endPoint = `https://simpliclarify.com/user-verification/${getHash}`;
+        const endPoint = `https://probuddy.in/user-verification/${getHash}`;
         const mailBody = signupEmailTemplate(endPoint, newUser.userName);
 
         const mailSent = await sendMail(
-            'simpliclarify.tech@gmail.com',
+            'probuddy.tech@gmail.com',
             newUser.userEmail,
-            'SimpliClariFy Account Verification',
+            'Probuddy Account Verification',
             mailBody
         );
         const createdUser = await newUser.save();
@@ -251,7 +251,7 @@ async function verifyUser(body) {
                     );
 
                     const mailSent = await sendMail(
-                        'hello@simpliclarify.com',
+                        'probuddy.tech@gmail.com',
                         referrer.userEmail,
                         subject,
                         body
@@ -307,14 +307,14 @@ async function forgotPassword(body) {
                     'User cannot reset password. Account logged in through google',
             });
         }
-        const subject = 'SimpliClariFy Forgot Password';
+        const subject = 'Probuddy Forgot Password';
         const generatedPassword = _generatePassword(8);
         const mailBody = forgotPasswordEmailTemplate(
             user.userName,
             generatedPassword
         );
         const mailSent = await sendMail(
-            'hello@simpliclarify.com',
+            'probuddy.tech@gmail.com',
             user.userEmail,
             subject,
             mailBody

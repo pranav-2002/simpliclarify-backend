@@ -1,5 +1,5 @@
 export default function (clarityCoins) {
-  return `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    return `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
   <html
     xmlns="http://www.w3.org/1999/xhtml"
@@ -580,7 +580,7 @@ export default function (clarityCoins) {
                           >
                             <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"><tr><td style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.example.com" style="height:40.5pt;width:157.5pt;v-text-anchor:middle;" arcsize="0%" strokeweight="0.75pt" strokecolor="#027500" fillcolor="#027500"><w:anchorlock/><v:textbox inset="0,0,0,0"><center style="color:#ffffff; font-family:Arial, sans-serif; font-size:16px"><!
                             [endif]--><a
-                              href="https://simpliclarify.com"
+                              href="https://probuddy.in"
                               style="
                                 -webkit-text-size-adjust: none;
                                 text-decoration: none;
@@ -801,14 +801,14 @@ export default function (clarityCoins) {
                                 "
                               >
                                 <a
-                                  href="https://www.simpliclarify.com/"
+                                  href="https://probuddy.in/"
                                   rel="noopener"
                                   style="
                                     text-decoration: underline;
                                     color: #027500;
                                   "
                                   target="_blank"
-                                  >https://www.simpliclarify.com/</a
+                                  >https://probuddy.in/</a
                                 >
                               </p>
                             </div>
@@ -952,5 +952,5 @@ export default function (clarityCoins) {
       <!--[if (IE)]></div><![endif]-->
     </body>
   </html>
-  `
+  `;
 }

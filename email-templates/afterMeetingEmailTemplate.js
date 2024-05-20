@@ -1,9 +1,16 @@
-export default function (userName, date, startTime, endTime, mentorName, bookingId) {
-  // const BASE_URL = "http://localhost:8080";
-  const BASE_URL = 'https://dev-sc-dev.netlify.app'
-  // return `, Link is
-  // http://localhost:8080/feedback?bookingid=${bookingId}&date=${date}&mentor=${mentorName}`;
-  return `
+export default function (
+    userName,
+    date,
+    startTime,
+    endTime,
+    mentorName,
+    bookingId
+) {
+    // const BASE_URL = "http://localhost:8080";
+    const BASE_URL = 'https://dev-sc-dev.netlify.app';
+    // return `, Link is
+    // http://localhost:8080/feedback?bookingid=${bookingId}&date=${date}&mentor=${mentorName}`;
+    return `
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
         <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 
@@ -210,7 +217,7 @@ export default function (userName, date, startTime, endTime, mentorName, booking
                                                     <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 45px; padding-left: 35px; padding-top: 20px; padding-bottom: 0px; font-family: Arial, sans-serif"><![endif]-->
                                                     <div style="color:#949600;font-family:'Cabin', Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height:1.5;padding-top:20px;padding-right:45px;padding-bottom:0px;padding-left:35px;">
                                                         <div class="txtTinyMce-wrapper" style="line-height: 1.5; font-size: 12px; font-family: 'Cabin', Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #949600; mso-line-height-alt: 18px;">
-                                                            <p style="margin: 0; line-height: 1.5; word-break: break-word; mso-line-height-alt: 18px; margin-top: 0; margin-bottom: 0;">Hope SimpliClariFy helped you SimpliFy your queries and ClariFy your doubts. It would be great if you could take out some time and fill up a short feedback form so we serve you better. &nbsp;</p>
+                                                            <p style="margin: 0; line-height: 1.5; word-break: break-word; mso-line-height-alt: 18px; margin-top: 0; margin-bottom: 0;">Hope Probuddy helped you SimpliFy your queries and ClariFy your doubts. It would be great if you could take out some time and fill up a short feedback form so we serve you better. &nbsp;</p>
                                                             <p style="margin: 0; line-height: 1.5; word-break: break-word; mso-line-height-alt: 18px; margin-top: 0; margin-bottom: 0;">&nbsp;</p>
                                                             <p style="margin: 0; line-height: 1.5; word-break: break-word; mso-line-height-alt: 18px; margin-top: 0; margin-bottom: 0;">Booking ID:<strong> ${bookingId}</strong></p>
                                                             <p style="margin: 0; line-height: 1.5; word-break: break-word; mso-line-height-alt: 18px; margin-top: 0; margin-bottom: 0;">&nbsp;</p>
@@ -240,7 +247,7 @@ export default function (userName, date, startTime, endTime, mentorName, booking
                                                     <table cellpadding="0" cellspacing="0" role="presentation" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top">
                                                         <tr style="vertical-align: top;" valign="top">
                                                             <td style="word-break: break-word; vertical-align: top; padding-bottom: 0px; padding-left: 10px; padding-right: 10px; padding-top: 0px; text-align: center; width: 100%;" width="100%" align="center" valign="top">
-                                                                <h3 style="color:#949600;direction:ltr;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:13px;font-weight:normal;letter-spacing:normal;line-height:120%;text-align:center;margin-top:0;margin-bottom:0;">If you have any queries regarding the meeting, write to us at <strong>hello@simpliclarify.com</strong></h3>
+                                                                <h3 style="color:#949600;direction:ltr;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:13px;font-weight:normal;letter-spacing:normal;line-height:120%;text-align:center;margin-top:0;margin-bottom:0;">If you have any queries regarding the meeting, write to us at <strong>probuddy.tech@gmail.com</strong></h3>
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -274,7 +281,7 @@ export default function (userName, date, startTime, endTime, mentorName, booking
                                                     <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Arial, sans-serif"><![endif]-->
                                                     <div style="color:#393d47;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;">
                                                         <div class="txtTinyMce-wrapper" style="font-size: 12px; line-height: 1.2; color: #393d47; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14px;">
-                                                            <p style="margin: 0; font-size: 12px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 14px; margin-top: 0; margin-bottom: 0;"><a href="https://www.simpliclarify.com/" target="_blank" style="text-decoration: underline; color: #1d2fb5;" rel="noopener"><span style="font-size: 15px;">www.simpliclarify.com</span></a></p>
+                                                            <p style="margin: 0; font-size: 12px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 14px; margin-top: 0; margin-bottom: 0;"><a href="https://probuddy.in/" target="_blank" style="text-decoration: underline; color: #1d2fb5;" rel="noopener"><span style="font-size: 15px;">https://probuddy.in</span></a></p>
                                                         </div>
                                                     </div>
                                                     <!--[if mso]></td></tr></table><![endif]-->
@@ -313,5 +320,5 @@ export default function (userName, date, startTime, endTime, mentorName, booking
         </body>
 
         </html>
-    `
+    `;
 }

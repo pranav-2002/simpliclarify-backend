@@ -1,5 +1,5 @@
 export default function (userName, generatedPassword) {
-  return `<!DOCTYPE>
+    return `<!DOCTYPE>
         <html>
         <head>
             <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
@@ -170,12 +170,12 @@ export default function (userName, generatedPassword) {
                                                     <div align="right" class="img-container right fixedwidth"
                                                         style="padding-right: 0px;padding-left: 0px;">
                                                         <div style="font-size:1px;line-height:15px"> </div><a
-                                                            href="www.simpliclarify.com" style="outline:none" tabindex="-1"
-                                                            target="_blank"><img align="right" alt="SimpliClariFy" border="0"
+                                                            href="https://probuddy.in" style="outline:none" tabindex="-1"
+                                                            target="_blank"><img align="right" alt="Probuddy" border="0"
                                                                 class="right fixedwidth"
                                                                 src="https://firebasestorage.googleapis.com/v0/b/simpliclarify-user-portal.appspot.com/o/SC-Portal%2Flogo.png?alt=media&token=3b945e02-c2ec-4580-8b74-b9766dcc1e1c"
                                                                 style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; width: 100%; max-width: 132px; float: none; display: block;"
-                                                                title="SimpliClariFy" width="132" /></a>
+                                                                title="Probuddy" width="132" /></a>
                                                         <div style="font-size:1px;line-height:25px"> </div>
                                                     </div>
                                                     <table border="0" cellpadding="0" cellspacing="0" class="divider"
@@ -252,9 +252,9 @@ export default function (userName, generatedPassword) {
                                                                 style="margin: 0; font-size: 12px; line-height: 1.5; word-break: break-word; mso-line-height-alt: 18px; margin-top: 0; margin-bottom: 0;">
                                                                 We strongly recommend you to change your password once logged in
                                                                 for security purposes. This can be done by logging in at <a
-                                                                    href="http://www.simpliclarify.com" rel="noopener"
+                                                                    href="https://probuddy.in" rel="noopener"
                                                                     style="text-decoration: underline; color: #4461ab;"
-                                                                    target="_blank">www.simpliclarify.com</a></p>
+                                                                    target="_blank">https://probuddy.in</a></p>
                                                         </div>
                                                     </div>
                                                     <table border="0" cellpadding="0" cellspacing="0" class="divider"
@@ -290,7 +290,7 @@ export default function (userName, generatedPassword) {
                                                                 style="margin: 0; font-size: 14px; line-height: 1.2; word-break: break-word; text-align: center; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Geneva, Verdana, sans-serif; mso-line-height-alt: 17px; margin-top: 0; margin-bottom: 0;">
                                                                 <span style="color: #4461ab;"><span style="font-size: 10px;">If
                                                                         this password request was not made by you, write to us
-                                                                        at hello@simpliclarify.com</span></span></p>
+                                                                        at probuddy.tech@gmail.com</span></span></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -316,9 +316,9 @@ export default function (userName, generatedPassword) {
                                                             <p
                                                                 style="margin: 0; font-size: 15px; text-align: center; line-height: 1.2; word-break: break-word; mso-line-height-alt: 18px; margin-top: 0; margin-bottom: 0;">
                                                                 <span style="font-size: 15px;"><a
-                                                                        href="http://www.simpliclarify.com" rel="noopener"
+                                                                        href="https://probuddy.in" rel="noopener"
                                                                         style="text-decoration: underline; color: #4461ab;"
-                                                                        target="_blank">www.simpliclarify.com</a></span></p>
+                                                                        target="_blank">https://probuddy.in/</a></span></p>
                                                         </div>
                                                     </div>
                                                     <table cellpadding="0" cellspacing="0" class="social_icons"
@@ -374,5 +374,5 @@ export default function (userName, generatedPassword) {
             </table>
         </body>
         
-        </html>`
+        </html>`;
 }

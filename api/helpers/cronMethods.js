@@ -58,9 +58,9 @@ function beforeMeetingJob(
                 endTime,
             });
             await sendMail(
-                'hello@simpliclarify.com',
+                'probuddy.tech@gmail.com',
                 userEmail,
-                `SimpliClariFy meeting in ${MINUTES_BEFORE_MEETING} minutes`,
+                `Probuddy meeting in ${MINUTES_BEFORE_MEETING} minutes`,
                 beforeMeetingEmailTemplate(
                     userName,
                     mentorName,
@@ -75,9 +75,9 @@ function beforeMeetingJob(
             );
 
             await sendMail(
-                'hello@simpliclarify.com',
+                'probuddy.tech@gmail.com',
                 mentorEmail,
-                `SimpliClariFy meeting in ${MINUTES_BEFORE_MEETING} minutes`,
+                `Probuddy meeting in ${MINUTES_BEFORE_MEETING} minutes`,
                 beforeMeetingEmailTemplate(
                     mentorName,
                     userName,
@@ -117,9 +117,9 @@ function afterMeetingJob(
                 endTime,
             });
             await sendMail(
-                'hello@simpliclarify.com',
+                'probuddy.tech@gmail.com',
                 userEmail,
-                'SimpliClariFy meeting Feedback',
+                'Probuddy meeting Feedback',
                 afterMeetingEmailTemplate(
                     userName,
                     date,
