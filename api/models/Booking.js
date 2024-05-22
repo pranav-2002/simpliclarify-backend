@@ -137,7 +137,6 @@ async function bookSlot(body) {
             });
             if (
                 checkPromoValidity.length >= promo.countPerUser ||
-                !promo.allowedPersonas.includes(personaType) ||
                 (promo.allowedMentors.length !== 0 &&
                     !promo.allowedMentors.includes(mentorId))
             ) {
